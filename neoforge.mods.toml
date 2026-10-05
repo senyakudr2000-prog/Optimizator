@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="frameguard"
+version="0.1.0"
+displayName="FrameGuard"
+description='''
+Клиентский мод: следит за FPS и автоматически снижает/возвращает качество графики,
+чтобы держать целевой FPS на слабых устройствах.
+'''
+
+[[dependencies.frameguard]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.frameguard]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="CLIENT"
